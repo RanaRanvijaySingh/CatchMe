@@ -53,6 +53,9 @@ public class MainActivity extends Activity implements View.OnTouchListener {
 			layoutParams.rightMargin = -50;
 			layoutParams.bottomMargin = -50;
 			view.setLayoutParams(layoutParams);
+			if(!Constants.IS_MOVING) { 
+				finish();
+			}
 			break;
 		}
 		viewGroup.invalidate();
