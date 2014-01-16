@@ -10,6 +10,10 @@ import android.widget.RelativeLayout;
 
 import com.rana.util.Constants;
 
+/**
+ * @author webonise Master 
+ *
+ */
 public class MainActivity extends Activity implements View.OnTouchListener {
 	private ViewGroup viewGroup;
 	private ImageView imageView;

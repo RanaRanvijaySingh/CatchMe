@@ -18,9 +18,9 @@ public class AnimatedView extends ImageView{
 	private Context mContext;
 	private Handler handler;
 	private final int FRAME_RATE = 300;
-	int x, y, speed=5;
 	public int xPosition=0,yPosition=0;
 	private InputStream stream = null;
+	int x, y, speed=5;
 	
 	public AnimatedView(Context context, AttributeSet attrs) {
 		super(context, attrs);
