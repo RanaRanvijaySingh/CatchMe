@@ -78,7 +78,7 @@ public class AnimatedView extends ImageView{
 			x -= speed;
 			y -= speed;
 		} 
-		Log.v("co rodinates", x+":::::::::"+y);
+//		Log.v("co rodinates", x+":::::::::"+y);
 		canvas.drawBitmap(ball.getBitmap(), x, y, null);
 		handler.postDelayed(runnable, FRAME_RATE);
 	}
